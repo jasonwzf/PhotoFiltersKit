@@ -7,6 +7,7 @@
 //
 
 #import "PFViewController.h"
+#import <PhotoFiltersKit/PFLogMessage.h>
 
 @interface PFViewController ()
 
@@ -18,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [PFLogMessage logMsg:@"Hello"];
 }
 
 - (void)didReceiveMemoryWarning

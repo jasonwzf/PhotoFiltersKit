@@ -1,0 +1,6 @@
+framework module PhotoFiltersKit {
+  umbrella header "PhotoFiltersKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "PhotoFiltersKit"
   s.version          = "0.1.0"
-  s.summary          = "A short description of PhotoFiltersKit."
+  s.summary          = "PhotoFiltersKit is a package of Photo Filter module which used on Coupon applications."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,24 +17,25 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+                        PhotoFiltersKit is a package of Photo Filter module which used on Coupon applications. User can take a photo and choose a sticker over it. The sticker can be resized and moved anywhere you like.
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/PhotoFiltersKit"
+  s.homepage         = "https://github.com/jasonwzf/PhotoFiltersKit"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "Jason" => "fanlikeu@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/PhotoFiltersKit.git", :tag => s.version.to_s }
+  s.author           = { "Jason Wu" => "fanlikeu@gmail.com" }
+  s.source           = { :git => "/Users/Jason/Documents/objc_workspace/13_Frameworks/PhotoFiltersKit", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
+  s.source_files = 'Pod/Classes/**/*.{h,m}'
   s.resource_bundles = {
-    'PhotoFiltersKit' => ['Pod/Assets/*.png']
+    'PhotoFiltersKit' => ['Pod/Resources/*.png']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
