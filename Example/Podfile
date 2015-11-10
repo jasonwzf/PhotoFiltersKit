@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'PhotoFiltersKit_Example', :exclusive => true do
+  pod "PhotoFiltersKit", :path => "../"
+end
+
+target 'PhotoFiltersKit_Tests', :exclusive => true do
+  pod "PhotoFiltersKit", :path => "../"
+
+  pod 'Kiwi'
+  pod 'FBSnapshotTestCase'
+end
