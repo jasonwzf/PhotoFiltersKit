@@ -22,8 +22,8 @@ pod "PhotoFiltersKit"
 
 ## Author
 
-Jason, fanlikeu@gmail.com
+Jason Wu, jason.wu@easternphoenix.com
 
 ## License
 
-PhotoFiltersKit is available under the MIT license. See the LICENSE file for more info.
+PhotoFiltersKit is available under the BSD license. See the LICENSE file for more info.

@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Jason Wu" => "fanlikeu@gmail.com" }
-  s.source           = { :git => "/Users/Jason/Documents/objc_workspace/13_Frameworks/PhotoFiltersKit", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/jasonwzf/PhotoFiltersKit.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
@@ -36,6 +36,10 @@ Pod::Spec.new do |s|
   }
 
   s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.ios.platform            = :ios, '7.0'
+  s.ios.preserve_paths      = 'ios/PhotoFiltersKit.framework'
+  s.ios.public_header_files  = 'ios/PhotoFiltersKit.framework/Versions/A/Headers/*.h'
+  s.ios.vendored_frameworks  = 'ios/PhotoFiltersKit.framework'
 end

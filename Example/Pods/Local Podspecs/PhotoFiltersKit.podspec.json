@@ -2,14 +2,14 @@
   "name": "PhotoFiltersKit",
   "version": "0.1.0",
   "summary": "PhotoFiltersKit is a package of Photo Filter module which used on Coupon applications.",
-  "description": "",
+  "description": "PhotoFiltersKit is a package of Photo Filter module which used on Coupon applications. User can take a photo and choose a sticker over it. The sticker can be resized and moved anywhere you like.",
   "homepage": "https://github.com/jasonwzf/PhotoFiltersKit",
   "license": "MIT",
   "authors": {
     "Jason Wu": "fanlikeu@gmail.com"
   },
   "source": {
-    "git": "https://github.com/jasonwzf/PhotoFiltersKit.git",
+    "git": "/Users/Jason/Documents/objc_workspace/13_Frameworks/PhotoFiltersKit",
     "tag": "0.1.0"
   },
   "platforms": {
